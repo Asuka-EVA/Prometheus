@@ -1179,7 +1179,7 @@ templates:
     agent_id: '1000018'
     api_secret: 'zO7QTGNTS3ASQWnqNWl0d5s-8A0TFEnVkiU3J9W-abc'
     send_resolved: true
-    message: '{{ template "wechat.tmpl" . }}  #应用上面已有的模板
+    message: '{{ template "wechat.tmpl" . }}'  #应用上面已有的模板
 ```
 
 
